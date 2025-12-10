@@ -8,7 +8,7 @@ export const APP_INFO: AppInfo = {
   copyright: 'Tuyên Quang',
   privacy_policy: '',
   default_language: 'vi',
-  disable_session_same_site: false, // set it to true if you want to embed the chatbot in an iframe
+  disable_session_same_site: true, // enabled for iframe embedding in Google Sites
 }
 
 export const isShowPrompt = false
