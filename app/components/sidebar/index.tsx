@@ -56,15 +56,15 @@ const Sidebar: FC<ISidebarProps> = ({
               key={item.id}
               className={classNames(
                 isCurrent
-                  ? 'bg-primary-50 text-primary-600'
-                  : 'text-gray-700 hover:bg-gray-100 hover:text-gray-700',
+                  ? 'bg-[#f1e1dd] text-[#c9a69c]'
+                  : 'text-gray-700 hover:bg-[#f1e1dd] hover:text-gray-700',
                 'group flex items-center rounded-md px-2 py-2 text-sm font-medium cursor-pointer',
               )}
             >
               <ItemIcon
                 className={classNames(
                   isCurrent
-                    ? 'text-primary-600'
+                    ? 'text-[#c9a69c]'
                     : 'text-gray-400 group-hover:text-gray-500',
                   'mr-3 h-5 w-5 flex-shrink-0',
                 )}

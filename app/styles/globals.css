@@ -12,20 +12,24 @@
     "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
+  --background-start-rgb: 241, 225, 221;
   --background-end-rgb: 255, 255, 255;
 
-  --primary-glow: conic-gradient(from 180deg at 50% 50%,
-      #16abff33 0deg,
-      #0885ff33 55deg,
-      #54d6ff33 120deg,
-      #0071ff33 160deg,
-      transparent 360deg);
-  --secondary-glow: radial-gradient(rgba(255, 255, 255, 1),
-      rgba(255, 255, 255, 0));
+  --theme-color: #f1e1dd;
+  --theme-color-light: #f7ebe8;
+  --theme-color-dark: #d9c5bf;
 
-  --tile-start-rgb: 239, 245, 249;
-  --tile-end-rgb: 228, 232, 233;
+  --primary-glow: conic-gradient(from 180deg at 50% 50%,
+      #f1e1dd33 0deg,
+      #e8d0ca33 55deg,
+      #f7ebe833 120deg,
+      #dfc0b833 160deg,
+      transparent 360deg);
+  --secondary-glow: radial-gradient(rgba(241, 225, 221, 1),
+      rgba(241, 225, 221, 0));
+
+  --tile-start-rgb: 241, 225, 221;
+  --tile-end-rgb: 247, 235, 232;
   --tile-border: conic-gradient(#00000080,
       #00000040,
       #00000030,
@@ -34,10 +38,10 @@
       #00000010,
       #00000080);
 
-  --callout-rgb: 238, 240, 241;
-  --callout-border-rgb: 172, 175, 176;
-  --card-rgb: 180, 185, 188;
-  --card-border-rgb: 131, 134, 135;
+  --callout-rgb: 241, 225, 221;
+  --callout-border-rgb: 217, 197, 191;
+  --card-rgb: 232, 208, 202;
+  --card-border-rgb: 201, 166, 156;
 }
 
 /* @media (prefers-color-scheme: dark) {

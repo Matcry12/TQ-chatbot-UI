@@ -10,7 +10,7 @@ module.exports = {
       colors: {
         gray: {
           50: '#F9FAFB',
-          100: '#F3F4F6',
+          100: '#f1e1dd',
           200: '#E5E7EB',
           300: '#D1D5DB',
           400: '#9CA3AF',
@@ -20,15 +20,20 @@ module.exports = {
           900: '#111928',
         },
         primary: {
-          50: '#EBF5FF',
-          100: '#E1EFFE',
-          200: '#C3DDFD',
-          300: '#A4CAFE',
-          600: '#1C64F2',
-          700: '#1A56DB',
+          50: '#f1e1dd',
+          100: '#f1e1dd',
+          200: '#e8d0ca',
+          300: '#dfc0b8',
+          600: '#c9a69c',
+          700: '#b8918a',
         },
         blue: {
-          500: '#E1EFFE',
+          500: '#f1e1dd',
+        },
+        theme: {
+          DEFAULT: '#f1e1dd',
+          light: '#f7ebe8',
+          dark: '#d9c5bf',
         },
         green: {
           50: '#F3FAF7',

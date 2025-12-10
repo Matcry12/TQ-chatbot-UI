@@ -651,7 +651,7 @@ const Main: FC<IMainProps> = () => {
   if (!APP_ID || !APP_INFO || !promptConfig) { return <Loading type='app' /> }
 
   return (
-    <div className='bg-gray-100'>
+    <div className='bg-[#f1e1dd]'>
       <Header
         title={APP_INFO.title}
         isMobile={isMobile}
