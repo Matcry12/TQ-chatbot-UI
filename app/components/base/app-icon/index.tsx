@@ -25,10 +25,14 @@ const AppIcon: FC<AppIconProps> = ({
         className ?? '',
       )}
       style={{
-        background,
+        background: background || 'transparent',
       }}
     >
-      🤖
+      <img
+        src="/app-icon.jpeg"
+        alt="App Icon"
+        className="w-full h-full object-cover rounded-lg"
+      />
     </span>
   )
 }

@@ -1,6 +1,6 @@
 const translation = {
   common: {
-    welcome: 'Chào mừng bạn sử dụng',
+    welcome: 'Chào mừng bạn đến với',
     appUnavailable: 'Ứng dụng không khả dụng',
     appUnkonwError: 'Ứng dụng không khả dụng',
   },
@@ -8,7 +8,7 @@ const translation = {
     newChat: 'Cuộc trò chuyện mới',
     newChatDefaultName: 'Cuộc trò chuyện mới',
     openingStatementTitle: 'Lời mở đầu',
-    powerBy: 'Được hỗ trợ bởi',
+    powerBy: '',
     prompt: 'Nhắc nhở',
     privatePromptConfigTitle: 'Cài đặt cuộc trò chuyện',
     publicPromptConfigTitle: 'Nhắc nhở ban đầu',
@@ -21,7 +21,7 @@ const translation = {
     privacyPolicyMiddle:
       'chính sách bảo mật',
     privacyPolicyRight:
-      ' được cung cấp bởi nhà phát triển ứng dụng.',
+      '.',
   },
   errorMessage: {
     valueOfVarRequired: 'Giá trị của biến không thể để trống',

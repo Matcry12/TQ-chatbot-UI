@@ -1,6 +1,9 @@
 .answerIcon {
   position: relative;
-  background: url(./icons/robot.svg);
+  background: url(/app-icon.jpeg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
 }
 
 .typeingIcon {
@@ -12,7 +15,7 @@
   align-items: center;
   width: 16px;
   height: 16px;
-  background: #FFFFFF;
+  background: #f7ebe8;
   box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
   border-radius: 16px;
 }
@@ -57,11 +60,11 @@
   padding-right: 90px;
   border-radius: 12px;
   line-height: 20px;
-  background-color: #fff;
+  background-color: #faf5f4;
 }
 
 .textArea:hover {
-  background-color: #fff;
+  background-color: #faf5f4;
 }
 
 /* .textArea:focus {

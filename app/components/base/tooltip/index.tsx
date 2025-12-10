@@ -15,7 +15,7 @@ interface TooltipProps {
 }
 
 const arrow = (
-  <svg className="absolute text-white h-2 w-full left-0 top-full" x="0px" y="0px" viewBox="0 0 255 255"><polygon className="fill-current" points="0,0 127.5,127.5 255,0"></polygon></svg>
+  <svg className="absolute text-[#faf5f4] h-2 w-full left-0 top-full" x="0px" y="0px" viewBox="0 0 255 255"><polygon className="fill-current" points="0,0 127.5,127.5 255,0"></polygon></svg>
 )
 
 const Tooltip: FC<TooltipProps> = ({
@@ -46,7 +46,7 @@ const Tooltip: FC<TooltipProps> = ({
         {children}
       </PortalToFollowElemTrigger>
       <PortalToFollowElemContent className="z-[999]">
-        <div className={classNames('relative px-3 py-2 text-xs font-normal text-gray-700 bg-white rounded-md shadow-lg', className)}>
+        <div className={classNames('relative px-3 py-2 text-xs font-normal text-gray-700 bg-[#faf5f4] rounded-md shadow-lg', className)}>
           {htmlContent ?? content}
           {arrow}
         </div>

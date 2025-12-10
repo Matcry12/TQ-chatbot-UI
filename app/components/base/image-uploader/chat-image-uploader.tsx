@@ -75,14 +75,14 @@ const UploaderButton: FC<UploaderButtonProps> = ({
     >
       <PortalToFollowElemTrigger onClick={handleToggle}>
         <div className={`
-          relative flex items-center justify-center w-8 h-8 hover:bg-gray-100 rounded-lg
+          relative flex items-center justify-center w-8 h-8 hover:bg-[#f1e1dd] rounded-lg
           ${disabled ? 'cursor-not-allowed' : 'cursor-pointer'}
         `}>
           <ImagePlus className='w-4 h-4 text-gray-500' />
         </div>
       </PortalToFollowElemTrigger>
       <PortalToFollowElemContent className='z-50'>
-        <div className='p-2 w-[260px] bg-white rounded-lg border-[0.5px] border-gray-200 shadow-lg'>
+        <div className='p-2 w-[260px] bg-[#faf5f4] rounded-lg border-[0.5px] border-[#e8d0ca] shadow-lg'>
           <ImageLinkInput onUpload={handleUpload} />
           {
             hasUploadFromLocal && (
